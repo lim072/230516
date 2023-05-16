@@ -1,0 +1,51 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.del{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: deepskyblue;
+    font: bold 14px/1 '애플 고딕';
+    color: #fff;
+    margin: 50px;
+    border-radius: 5px;
+}
+.view{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: plum;
+    font: bold 14px/1 '애플 고딕';
+    color: #fff;
+    margin: 50px;
+    border-radius: 5px;
+}
+#popup{
+    width: 500px;
+    padding: 40px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+#popup .content{
+    width: 100%;
+    min-height: 150px;
+    font: 30px/1.2 "애플 고딕";
+    color: #fff;
+}
+
+#popup .close{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+}
